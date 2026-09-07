@@ -4,3 +4,4 @@ uvicorn[standard]
 transformers
 sentencepiece
 safetensors
+redis
