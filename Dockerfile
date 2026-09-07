@@ -11,7 +11,7 @@ RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/wh
     && pip install --no-cache-dir -r requirements.docker.txt
 
 COPY config.py data_processing.py main.py schema.py settings.py ./
-COPY saved_summury_model ./saved_summury_model
+
 
 EXPOSE 8000
 
