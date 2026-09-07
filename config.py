@@ -6,7 +6,8 @@ from transformers import T5ForConditionalGeneration, T5Tokenizer
 
 # model_dir = Path(get_required_env("MODEL_DIR"))
 # MODEL_DIR = model_dir if model_dir.is_absolute() else PROJECT_ROOT / model_dir
-MODEL_DIR="saved_summury_model"
+# MODEL_DIR="saved_summury_model"
+MODEL_DIR="nidhitk/T5-summarizer" #from hugging face
 
 model = T5ForConditionalGeneration.from_pretrained(MODEL_DIR)
 tokenizer = T5Tokenizer.from_pretrained(MODEL_DIR)
