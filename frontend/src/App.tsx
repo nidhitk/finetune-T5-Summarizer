@@ -60,7 +60,7 @@ function App() {
             <p className="eyebrow">T5 backend</p>
             <h1 id="page-title">Text Summarizer</h1>
           </div>
-          <span className="endpoint">{API_BASE_URL}</span>
+          
         </header>
 
         <form className="summarizer" onSubmit={handleSubmit}>
